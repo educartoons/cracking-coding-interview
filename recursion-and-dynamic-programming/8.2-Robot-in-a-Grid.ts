@@ -61,5 +61,6 @@ function getPath(maze: boolean[][]): Array<Point> | null{
 
 // Complexity
 // This solution is O(2^(r+c))
+// Using a HashSet time complexity O(r*c)
 
 console.log(getPath(MAZE))
