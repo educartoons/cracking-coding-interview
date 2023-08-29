@@ -11,7 +11,6 @@ function getSubsets(set: Array<number>, index: number): Array<Array<number>>{
     
     allSubsets = getSubsets(set, index + 1);
     const item = set[index];
-    console.log(item)
     
     let moreSubsets: Array<Array<number>> = [];
 
